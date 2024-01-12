@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+     top: 0;
+    position: sticky;
+ background:white;
+
+}
+.container{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+     display: flex;
+     justify-content: space-between;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    bottom: 32px;
+    padding: 10px;
+}
+.icon{
+    font-size: 24px;
+}
+.herosection{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+h1{
+    font-size: 72px;
+    
+    font-weight: 100px;
+}
+.herocontent{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.tag{
+    display: flex;
+    align-self: start;
+    background-color: green;
+    font-size: 25px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}  
+.content{
+    font-size: 15px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    gap: 10px;
+    margin-top: 0;
+    
+}
+.icon:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05); 
+}
+.divider{
+    border: 2px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
