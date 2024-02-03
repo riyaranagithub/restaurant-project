@@ -11,7 +11,7 @@ header{
 }
 .container{
     display: flex;
-    width: 1200px;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
 }
@@ -22,7 +22,15 @@ header{
     bottom: 32px;
     padding: 10px;
 }
-.icon{
+.about{
+    display: flex;
+    width: 700px;
+    padding-left: 200px;
+    justify-content: end;
+    justify-content: space-between;
+}
+.bar{
+    margin-right: 10px;
     font-size: 24px;
 }
 .herosection{
@@ -69,11 +77,5 @@ h1{
 .icon:hover{
     transition: 0.2s ease-in-out;
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05); 
-}
-.divider{
-    border: 2px solid #ccc;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
 }
 
